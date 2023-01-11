@@ -1,4 +1,4 @@
-using System;
+using System.Collections.Generic;
 
 class Program
 {
@@ -21,8 +21,6 @@ class Program
             else {
                 numbers.Add(input);
             }
-
-
         }
 
         // This foreach loop will count the total of all the numbers in the list. Then below it it finds the average and writes it in the console.
